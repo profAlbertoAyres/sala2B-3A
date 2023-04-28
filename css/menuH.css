@@ -38,8 +38,53 @@
 
 .menuDireito a{
     border: none;
+    background-color: rgb(11,9,88);
+    padding: 8px 13px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menuDireito a:hover{
+    color: #000;
+    background-color: rgb(200, 199, 225);
+    font-weight: 600;
 }
 
 .menuBotao{
     display: none;
+}
+
+.menuResp{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+ 
+    .menu{
+        padding: 1.5rem 4rem;
+    }
+
+    .menuLista{
+        display: none;
+    }
+    
+    .menuDireito{
+        display: none;
+    }
+
+    .menuBotao{
+        display: block;
+    }
+
+    .menuBotao button{
+        background-color: transparent;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    .abrir{
+        display: block;
+    }
 }
