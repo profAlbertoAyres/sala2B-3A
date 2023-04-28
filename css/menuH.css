@@ -84,6 +84,30 @@
         cursor: pointer;
     }
 
+    .menuResp ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        list-style: none;
+    }
+
+    .menuResp .itemMenu{
+        display: block;
+        padding: 1.2rem;
+    }
+
+    .menuResp .menuDireito{
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .menuResp .menuDireito a{
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
     .abrir{
         display: block;
     }
